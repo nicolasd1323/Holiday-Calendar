@@ -10,10 +10,10 @@ The idea of this project is to have a functional and dynamic holiday calendar of
 
 
 ## API and Data Sample
-**"holidays": [
-   **{
-   **"name": "New Year's Day",
-   **"description": "New Year's Day is the first day of the Gregorian calendar, which is widely used in many countries such as the USA.",
+⋅⋅⋅"holidays": [
+   ⋅⋅⋅{
+ ⋅⋅⋅"name": "New Year's Day",
+ ⋅⋅⋅"description": "New Year's Day is the first day of the Gregorian calendar, which is widely used in many countries such as the USA.",
    **"country": {
    **"id": "us",
    **"name": "United States"
