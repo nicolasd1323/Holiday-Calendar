@@ -19,16 +19,4 @@ const apiOptions = async () => {
 
 apiOptions()
 
-function setOptions(list) {
-  // console.log(list)
-  const selectTag = document.querySelector('#months')
-  list.forEach((month) => {
-    // console.log(breed)
-    const optionTag = document.createElement('option')
-    optionTag.textContent = holiday
-    optionTag.value = holiday
-    selectTag.append(optionTag)
-  })
-  return list
-}
 
