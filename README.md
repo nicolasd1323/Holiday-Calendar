@@ -6,24 +6,24 @@ file:///Users/Nico1608/General_Assambly/sei/loon/Holiday_Calendar/awsome-page/in
 
 ## Project Description
 
-The idea of this project is to have a functional and dynamic holiday calendar of the United States.
+The idea of this project is to have a functional and dynamic holiday calendar of the United States using JavaScript, CSS and HTML.
 
 
 ## API and Data Sample
-"holidays": [
-            {
-                "name": "New Year's Day",
-                "description": "New Year's Day is the first day of the Gregorian calendar, which is widely used in many countries such as the USA.",
-                "country": {
-                    "id": "us",
-                    "name": "United States"
-                },
-                "date": {
-                    "iso": "2019-01-01",
-                    "datetime": {
-                        "year": 2019,
-                        "month": 1,
-                        "day": 1
+**"holidays": [
+   **{
+   **"name": "New Year's Day",
+   **"description": "New Year's Day is the first day of the Gregorian calendar, which is widely used in many countries such as the USA.",
+   **"country": {
+   **"id": "us",
+   **"name": "United States"
+   **},
+   **"date": {
+   **"iso": "2019-01-01",
+   **"datetime": {
+   **"year": 2019,
+   **"month": 1,
+   **"day": 1
 
 
 
@@ -37,10 +37,10 @@ https://wireframe.cc/vU662h
 #### MVP 
 
 
--⋅⋅*Have a dynamic Holiday Calendar.
--⋅⋅*Allow users to have a drop down year calendar by month.
-1.Allow users to choose a month and be able to see what holidays it includes.
-2.See a brief description of each holiday
+- **Have a dynamic Holiday Calendar.
+- **Allow users to have a drop down year calendar by month.
+- **Allow users to choose a month and be able to see what holidays it includes.
+- **See a brief description of each holiday
 - **clear past searches to start over.
 - **Use a external API.
 - **Utilized CSS Flex box to give a great design to the web-site.
@@ -48,9 +48,9 @@ https://wireframe.cc/vU662h
 
 #### PostMVP  
 
--**Add a second API to have fun facts and or images of a few calendar holidays.
--**Add a second/third API to mention major sports events during the year.
--**Provide links for users to know abot the history of major holidays in the Unites States
+- **Add a second API to have fun facts and or images of a few calendar holidays.
+- **Add a second/third API to mention major sports events during the year.
+- **Provide links for users to know abot the history of major holidays in the Unites States
 
 
 ## Project Schedule
