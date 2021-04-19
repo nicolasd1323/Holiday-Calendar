@@ -2,7 +2,7 @@ const DOMAIN = 'https://calendarific.com/api/v2/holidays';
 const API_KEY = '0b310119eb1e1b4e3fde21fcb08d9ab20e181f1c';
 const BASE_URL = `${DOMAIN}?apikey=${API_KEY}&`;
 
-const getOptions = async () => {
+const apiOptions = async () => {
   const url = 'https://calendarific.com/api/v2/holidays?&api_key=0b310119eb1e1b4e3fde21fcb08d9ab20e181f1c&country=US&year=2019'  
   try {
     const response = await axios.get(url)
@@ -17,4 +17,18 @@ const getOptions = async () => {
   }
 }
 
-getOptions()
+apiOptions()
+
+function setOptions(list) {
+  // console.log(list)
+  const selectTag = document.querySelector('#months')
+  list.forEach((month) => {
+    // console.log(breed)
+    const optionTag = document.createElement('option')
+    optionTag.textContent = holiday
+    optionTag.value = holiday
+    selectTag.append(optionTag)
+  })
+  return list
+}
+

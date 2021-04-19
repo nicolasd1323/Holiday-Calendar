@@ -1,0 +1,27 @@
+.Calendar-title {
+  background-color: rgb(178, 113, 196);
+
+  background-position-x: right;
+  font-family: 'Shadows Into Light', cursive;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  height: 10vh;
+  width: 80%;
+
+}
+
+  .top {
+    
+      
+      width: 2000px;
+      height: max-content;
+      background-image:url("https://image.freepik.com/free-vector/waving-american-flag-background-usa-national-holidays_100959-144.jpg"); 
+      background-repeat:repeat-x;
+      border: 1px solid ;
+      color:black;
+      padding-bottom: 10px;
+    
+}
