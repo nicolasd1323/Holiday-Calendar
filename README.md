@@ -9,24 +9,9 @@ file:///Users/Nico1608/General_Assambly/sei/loon/Holiday_Calendar/awsome-page/in
 The idea of this project is to have a functional and dynamic holiday calendar of the United States using JavaScript, CSS and HTML.
 
 
-## API and Data Sample
-⋅⋅⋅"holidays":⋅⋅
-⋅⋅⋅{⋅⋅
-⋅⋅⋅"name": "New Year's Day",⋅⋅
-⋅⋅⋅"description": "New Year's Day is the first day of the Gregorian calendar, which is widely used in many countries such as the USA.",⋅⋅
-⋅⋅⋅"id": "us",⋅⋅⋅
-                 
-  -                         **"name": "United States"
-  -                      **},
-  -                    **"date": {
-  -                    **"iso": "2019-01-01",
-  -                      **"datetime": {
-  -                     **"year": 2019,
-  -                    **"month": 1,
-  -                    -                    **"day": 1
-
-
-
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
+⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
 
 ## Wireframes
 
