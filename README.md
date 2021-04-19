@@ -6,7 +6,7 @@ file:///Users/Nico1608/General_Assambly/sei/loon/Holiday_Calendar/awsome-page/in
 
 ## Project Description
 
-The idea of this project is to have a functional and dynamic holiday calendar of the United States using JavaScript, CSS and HTML.
+The idea of this project is to have a functional and dynamic holiday calendar of the United States using JavaScript, HTML and CSS flex box model; also, adding an external API.
 
 ## API and Data Sample
 
@@ -57,9 +57,9 @@ https://wireframe.cc/vU662h
 |April 16-18| Prompt / Wireframes / Timeframes | Incomplete
 |April 19| Project Approval/ Connecting the API with the page/ work with the html structure  | Incomplete
 |April 20| Structure of the page  (HTML) and start coding in JavaScript | Incomplete
-|April 20| coding JavaScript | Incomplete
-|April 21| Initial Clickable Model  | Incomplete
-|April 22| MVP- Podt MVP | Incomplete
+|April 20| coding JavaScript and CSS flex box model | Incomplete
+|April 21| Initial Clickable Model using JavaScript | Incomplete
+|April 22| MVP- Post MVP | Incomplete
 |April 23| Presentation | Incomplete
 
 ## Priority Matrix
