@@ -37,14 +37,14 @@ https://wireframe.cc/vU662h
 #### MVP 
 
 
--**Have a dynamic Holiday Calendar.
--**Allow users to have a drop down year calendar by month.
--**Allow users to choose a month and be able to see what holidays it includes.
--**See a brief description of each holiday
--**clear past searches to start over.
--**Use a external API.
--**Utilized CSS Flex box to give a great design to the web-site.
--**Utilized HTML to structure the content. 
+-⋅⋅*Have a dynamic Holiday Calendar.
+-⋅⋅*Allow users to have a drop down year calendar by month.
+- **Allow users to choose a month and be able to see what holidays it includes.
+- **See a brief description of each holiday
+- **clear past searches to start over.
+- **Use a external API.
+- **Utilized CSS Flex box to give a great design to the web-site.
+- **Utilized HTML to structure the content. 
 
 #### PostMVP  
 
