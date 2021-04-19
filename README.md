@@ -6,7 +6,7 @@ file:///Users/Nico1608/General_Assambly/sei/loon/Holiday_Calendar/awsome-page/in
 
 ## Project Description
 
-The idea of this project is to have a functional and dynamic holiday calendar of the United States using JavaScript, HTML and CSS flex box model; also, adding an external API.
+The idea of this project is to have a functional and dynamic holiday calendar of the United States using JavaScript, HTML and CSS flex box model. Also, I will add an external API to the project.
 
 ## API and Data Sample
 
