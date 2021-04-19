@@ -51,28 +51,21 @@ https://wireframe.cc/vU662h
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
 |April 16-18| Prompt / Wireframes / Timeframes | Incomplete
-|April 19| Project Approval | Incomplete
-|April 20| Structure of the page  | Incomplete
-|April 20| coding | Incomplete
+|April 19| Project Approval/ Connecting the API with the page/ work with the html structure  | Incomplete
+|April 20| Structure of the page  (HTML) and start coding in JavaScript | Incomplete
+|April 20| coding JavaScript | Incomplete
 |April 21| Initial Clickable Model  | Incomplete
 |April 22| MVP- Podt MVP | Incomplete
-|April 23| Presentations | Incomplete
+|April 23| Presentation | Incomplete
 
 ## Priority Matrix
 
- Importance
- 
- -Make dure API works.
- -javaScript Coding.
- -CSS, flex box.
- -HTML structure.
+https://app.smartsheet.com/sheets/CqqcX9FgHWCjq7fxJP592x6m6hrQ9X26PQcmrgc1?view=grid.
+
 ## Timeframes
 
 
@@ -80,7 +73,6 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Working with API | H | 3hrs| hrs | hrs |
-| Adding images to each holiday| M | 3 hr| hrs | hrs |
 | Describing each holiday | H | 3.5hrs| hrs | hrs |
 | funtionality of the page | H | 4 hr| hrs | hrs |
 | CSS & Flex box | H | 4.5 hrs| hrs | hrs |
@@ -89,6 +81,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Animation | m | 4 hr| hrs | hrs |
 | DOM work | H | 4.5hrs| hrs | hrs |
 | Addiing a hearder image| L | 2hr| hrs | hrs |
+| Adding images to each holiday| M | 3 hr| hrs | hrs |
 | Final Adjustments | H | 3hrs| hrs | hrs |
 
 
