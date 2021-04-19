@@ -7,7 +7,7 @@ file:///Users/Nico1608/General_Assambly/sei/loon/Holiday_Calendar/awsome-page/in
 ## Project Description
 
 The idea of this project is to have a functional and dynamic holiday calendar of the United States.
-Th project will include pictures and fun facts.
+
 
 ## API and Data Sample
 "holidays": [
@@ -37,17 +37,20 @@ https://wireframe.cc/vU662h
 #### MVP 
 
 
--Have a dynamic Holiday Calendar.
--allow users to search holidays by month
--allow users to see a description of each holiday.
--clear past searches to start over.
--Provide links for users to know abot the history of major holidays in the Unites States
--Use a external IPA.
+-**Have a dynamic Holiday Calendar.
+-**Allow users to have a drop down year calendar by month.
+-**Allow users to choose a month and be able to see what holidays it includes.
+-**See a brief description of each holiday
+-**clear past searches to start over.
+-**Use a external API.
+-**Utilized CSS Flex box to give a great design to the web-site.
+-**Utilized HTML to structure the content. 
 
 #### PostMVP  
 
--Add a second API to have fun facts and or images of a few calendar holidays.
--Add a second/third API to mention major sports events during the year.
+-**Add a second API to have fun facts and or images of a few calendar holidays.
+-**Add a second/third API to mention major sports events during the year.
+-**Provide links for users to know abot the history of major holidays in the Unites States
 
 
 ## Project Schedule
@@ -76,9 +79,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
  -HTML structure.
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
