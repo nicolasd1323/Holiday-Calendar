@@ -63,7 +63,7 @@ https://wireframe.cc/vU662h
 
 ## Priority Matrix
 
-https://app.smartsheet.com/sheets/CqqcX9FgHWCjq7fxJP592x6m6hrQ9X26PQcmrgc1?view=grid.
+https://app.conceptboard.com/board/g8mu-dgai-3hc4-nubo-cxg4
 
 ## Timeframes
 
