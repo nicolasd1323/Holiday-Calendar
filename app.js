@@ -14,6 +14,7 @@ const apiOptions = async () => {
     //   return holiday.name;
     // });
     // console.log(holidayList);
+    
     setOptions(holidays);
     // return  holidayList
   } catch (error) {
@@ -31,7 +32,11 @@ function setOptions(list) {
     optionTag.textContent = holiday.name;
     optionTag.value = holiday.name;
     selectTag.append(optionTag);
-  });
+  })
+  change(selectTag, list)
+  
+}
+function change(selectTag, list) {
   selectTag.addEventListener('change', () => {
     console.log(selectTag.value);
     let selectedHoliday = list.find((holiday) => {
@@ -39,17 +44,26 @@ function setOptions(list) {
     })
     console.log(selectedHoliday.description)
     console.log(selectedHoliday.date)
-    document.querySelector("#Info-name").insertAdjacentHTML("afterend", selectedHoliday.name)
-    document.querySelector("#Info-Description").insertAdjacentHTML("afterend", selectedHoliday.description)
-    document.querySelector("#Info-date").insertAdjacentHTML("afterend", selectedHoliday.date.iso)
-    // removeDescription()
+    const newDiv = document.createElement('div')
+    newDiv.classList.add('holiday.info')
+
+
+
+    const name = document.querySelector("#info-name").innerText = selectedHoliday.name
+
+    const description = document.querySelector('#info-description').innerText = selectedHoliday.description
+    
+    const data = document.querySelector('#info-date').innerText = selectedHoliday.date.iso
+    // newDiv.append(name, description, date)
+    document.body.append(newDiv)
   })
 }
-// function removeDescription() {
-//   const removeDescriptionDiv = document.querySelector("#Info-name")
-//   while (removeDescriptionDiv.lastChild) {
-//     removeDescriptionDiv.removeChild(removeDescriptionDiv.replaceChild.lastChild)
-//   }
+function removeDescription() {
+  const removeDescriptionDiv = document.querySelector(".holiday.info")
+  while (removeDescriptionDiv.lastChild) {
+    removeDescriptionDiv.removeChild(removeDescriptionDiv.lastChild)
+  }
+}
 
 // }
 // document.querySelector("#Info")

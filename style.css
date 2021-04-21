@@ -13,17 +13,21 @@
 
 }
 
-#Info-name   {
+#info-name   {
 font-family: 'Shadows Into Light', cursive;
-color: azure;
+color:rgb(255, 0, 60);
+text-align: center;
+
 }
-#Info-Description {
+#info-description {
   font-family: 'Shadows Into Light', cursive;
-  color: azure;
+  color:rgb(255, 0, 60);
+  text-align: center;
   }
-#Info-date {
+#info-date {
   font-family: 'Shadows Into Light', cursive;
-  color: azure;
+  color:rgb(255, 0, 60);
+  text-align: center;
   }
 
 .get-Months {
@@ -41,7 +45,8 @@ color: azure;
 
 }
 body {
-  background-image: url('https://i2.wp.com/americanhungarianjournal.com/en/wp-content/uploads/2019/12/ahj-main-pic-.jpg?resize=678%2C381');
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqs328qsEEoIafzSYt3xP5j1SoEHBD8eYnw&usqp=CAU');
+
 }
 
 footer {
