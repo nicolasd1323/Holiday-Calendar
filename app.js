@@ -35,27 +35,39 @@ function setOptions(list) {
   selectTag.addEventListener('change', () => {
     console.log(selectTag.value);
     let selectedHoliday = list.find((holiday) => {
-      return holiday.name === selectTag.value
-      
+      return holiday.name === selectTag.value;
     })
     console.log(selectedHoliday.description)
+    console.log(selectedHoliday.date)
+    document.querySelector("#Info-name").insertAdjacentHTML("afterend", selectedHoliday.name)
+    document.querySelector("#Info-Description").insertAdjacentHTML("afterend", selectedHoliday.description)
+    document.querySelector("#Info-date").insertAdjacentHTML("afterend", selectedHoliday.date.iso)
+    // removeDescription()
   })
 }
+// function removeDescription() {
+//   const removeDescriptionDiv = document.querySelector("#Info-name")
+//   while (removeDescriptionDiv.lastChild) {
+//     removeDescriptionDiv.removeChild(removeDescriptionDiv.replaceChild.lastChild)
+//   }
 
+// }
+// document.querySelector("#Info")
+// selectedHoliday.appendChild(selectedHoliday.description)
 
 
 
 // ////Source of this code https://www.geeksforgeeks.org/how-to-create-a-link-in-javascript/
 
-// // let linkUID = document.getElementById("Know more about me")
-// // let link = document.getElementById("Black-History-Month")
+// let linkUID = document.getElementById("Know more about me")
+// let link = document.getElementById("Black-History-Month")
 
-// // linkUID.innerHTML = "Click important holidays"
-// // function linking() {
-// //   let a = document.createElement('a')
-// //   let links = document.createTextNode("United States Independence")
-// //   a.appendChild(links)
-// //   a.href = ("https://www.history.com/topics/holidays/july-4th")
-// //   document.body.appendChild(a)
-// // }
-// // // ///
+// linkUID.innerHTML = "Click important holidays"
+// function linking() {
+//   let a = document.createElement('a')
+//   let links = document.createTextNode("United States Independence")
+//   a.appendChild(links)
+//   a.href = ("https://www.history.com/topics/holidays/july-4th")
+//   document.body.appendChild(a)
+// }
+// // ///
