@@ -71,17 +71,17 @@ function removeDescription() {
 
 
 
-// ////Source of this code https://www.geeksforgeeks.org/how-to-create-a-link-in-javascript/
+////Source of this code https://www.geeksforgeeks.org/how-to-create-a-link-in-javascript/
 
-// let linkUID = document.getElementById("Know more about me")
-// let link = document.getElementById("Black-History-Month")
+let linkUID = document.getElementById("Know more about me")
+let link = document.getElementById("Black-History-Month")
 
-// linkUID.innerHTML = "Click important holidays"
-// function linking() {
-//   let a = document.createElement('a')
-//   let links = document.createTextNode("United States Independence")
-//   a.appendChild(links)
-//   a.href = ("https://www.history.com/topics/holidays/july-4th")
-//   document.body.appendChild(a)
-// }
-// // ///
+linkUID.innerHTML = "Click important holidays"
+function linking() {
+  let a = document.createElement('a')
+  let links = document.createTextNode("United States Independence")
+  a.appendChild(links)
+  a.href = ("https://www.history.com/topics/holidays/july-4th")
+  document.body.appendChild(a)
+}
+// ///

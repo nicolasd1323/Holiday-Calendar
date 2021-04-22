@@ -1,37 +1,91 @@
+
+
+
+
 .Calendar-title {
-  background-color: rgb(4, 4, 105);
-  background-position-x: right;
-  font-family: 'Shadows Into Light', cursive;
-  color: gold;
   display: flex; 
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  background-color: rgb(4, 4, 105);
+  background-position-x: right;
+  border-radius: 10vh;
+  border: 5px solid ;
+  font-family: 'Shadows Into Light', cursive;
+  color: gold;
   margin: 0 auto;
   height: max-content;
   width: 100%;
 
 }
+/* button effect code, imported from https://fdossena.com/?p=html5cool/buttons/i.frag 
+I made some minor changes to the code*/
+button{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #b9b949;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Shadows Into Light', cursive;
+  font-weight:300;
+  color:#3414ea;
+  text-align:center;
+  transition: all 0.2s;
+  }
+  button:hover{
+  color:wheat;
+  background: #042346;
+  }
+#holiday {
+  font-family: 'Shadows Into Light', cursive;
+  color: #3414ea;
+  text-align: center;
 
+}
 #info-name   {
-font-family: 'Shadows Into Light', cursive;
-color:rgb(255, 0, 60);
-text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  color: black;
+  font-size: 10vh;
+  text-align: center;
+  border-style:hidden;
+  padding: 2pc 2pc;
+  margin: 2pc 2pc;
+  border-color:rgb(121, 121, 163);
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v384-ning-06b-gradientbg_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=37659bf3e83dd38dc45b6f9ca2e475ee');
 
 }
 #info-description {
   font-family: 'Shadows Into Light', cursive;
-  color:rgb(255, 0, 60);
+  color: black;
+  font-size: 5vh;
   text-align: center;
+  border-style:hidden;
+  padding: 2pc 2pc;
+  margin: 2pc 2pc;
+  border-color:rgb(121, 121, 163);
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v384-ning-06b-gradientbg_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=37659bf3e83dd38dc45b6f9ca2e475ee');
+
   }
 #info-date {
   font-family: 'Shadows Into Light', cursive;
-  color:rgb(255, 0, 60);
+  color: black;
+  font-size: 10vh;
   text-align: center;
+  border-style:hidden;
+  padding: 2pc 2pc;
+  margin: 2pc 2pc;
+  border-color:rgb(121, 121, 163);
+  background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v384-ning-06b-gradientbg_2.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=37659bf3e83dd38dc45b6f9ca2e475ee') ;
+  
+
+
+  
   }
 
 .get-Months {
-  background-image: url('https://i.pinimg.com/474x/77/ea/61/77ea61d21154854a1b728e30f7369cde.jpg');
+  background-image: url('https://i2.wp.com/www.charlotteonthecheap.com/lotc-cms/wp-content/uploads/2019/06/United-States-Flag-United-States-Flag-Fireworks-Background-For-Usa-Independence-Day-Fourth-Of-July-Celebrate.jpg?fit=610%2C478&ssl=1');
   background-position-x: center;
   display: flex; 
   flex-direction: row;
@@ -41,30 +95,32 @@ text-align: center;
   height: 450px;
   width: 450px;
   background-repeat: no-repeat;
+  border-style: dotted;
+  border-color:rgb(121, 121, 163);
 
 
 }
 body {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRqs328qsEEoIafzSYt3xP5j1SoEHBD8eYnw&usqp=CAU');
-
+  background-image: url('https://theawesomedaily.com/wp-content/uploads/2018/07/cool-background-1-1.jpg');
 }
 
-footer {
-  background-color: rgb(4, 4, 105);
-  background-position-x:center;
-  font-family: 'Shadows Into Light', cursive;
-  color: gold;
-  display: flex; 
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin:350px auto;
-  height: max-content;
-  width: 100%;
-  
-
+.external-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  margin: 0;
+  list-style: circle; 
+  background: deepskyblue;
 }
-.button {
-  background-color: gold;
 
+.external-links a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
 }
+
+.external-links:hover {
+  background: #042346;
+}
+
