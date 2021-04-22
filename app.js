@@ -8,15 +8,7 @@ const apiOptions = async () => {
   try {
     const response = await axios.get(url);
     const holidays = response.data.response.holidays;
-    // console.log(response.data.response.holidays[0].date.iso)
-    // console.log(holidays);
-    // let holidayList = holidays.map((holiday) => {
-    //   return holiday.name;
-    // });
-    // console.log(holidayList);
-    
     setOptions(holidays);
-    // return  holidayList
   } catch (error) {
     console.error(error);
   }
@@ -50,11 +42,9 @@ function change(selectTag, list) {
 
 
     const name = document.querySelector("#info-name").innerText = selectedHoliday.name
-
     const description = document.querySelector('#info-description').innerText = selectedHoliday.description
-    
     const data = document.querySelector('#info-date').innerText = selectedHoliday.date.iso
-    // newDiv.append(name, description, date)
+
     document.body.append(newDiv)
   })
 }
@@ -64,24 +54,7 @@ function removeDescription() {
     removeDescriptionDiv.removeChild(removeDescriptionDiv.lastChild)
   }
 }
-
-// }
-// document.querySelector("#Info")
-// selectedHoliday.appendChild(selectedHoliday.description)
-
-
-
-////Source of this code https://www.geeksforgeeks.org/how-to-create-a-link-in-javascript/
-
 let linkUID = document.getElementById("Know more about me")
 let link = document.getElementById("Black-History-Month")
 
-linkUID.innerHTML = "Click important holidays"
-function linking() {
-  let a = document.createElement('a')
-  let links = document.createTextNode("United States Independence")
-  a.appendChild(links)
-  a.href = ("https://www.history.com/topics/holidays/july-4th")
-  document.body.appendChild(a)
-}
-// ///
+

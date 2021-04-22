@@ -4,22 +4,21 @@
 
 .Calendar-title {
   display: flex; 
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content:space-around;
   background-color: rgb(4, 4, 105);
-  background-position-x: right;
   border-radius: 10vh;
   border: 5px solid ;
   font-family: 'Shadows Into Light', cursive;
   color: gold;
   margin: 0 auto;
   height: max-content;
-  width: 100%;
+  width: 100%; 
 
 }
 /* button effect code, imported from https://fdossena.com/?p=html5cool/buttons/i.frag 
 I made some minor changes to the code*/
+
+
 button{
   display:inline-block;
   padding:0.35em 1.2em;
@@ -38,7 +37,15 @@ button{
   color:wheat;
   background: #042346;
   }
+
+
+/* End of the source */
+
+
+
 #holiday {
+  display: flex;
+  justify-content: center;
   font-family: 'Shadows Into Light', cursive;
   color: #3414ea;
   text-align: center;
@@ -84,10 +91,10 @@ button{
   
   }
 
-.get-Months {
-  background-image: url('https://i2.wp.com/www.charlotteonthecheap.com/lotc-cms/wp-content/uploads/2019/06/United-States-Flag-United-States-Flag-Fireworks-Background-For-Usa-Independence-Day-Fourth-Of-July-Celebrate.jpg?fit=610%2C478&ssl=1');
+.get-Months { 
+ display: flex;  
+ background-image: url('https://i2.wp.com/www.charlotteonthecheap.com/lotc-cms/wp-content/uploads/2019/06/United-States-Flag-United-States-Flag-Fireworks-Background-For-Usa-Independence-Day-Fourth-Of-July-Celebrate.jpg?fit=610%2C478&ssl=1');
   background-position-x: center;
-  display: flex; 
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -105,7 +112,7 @@ body {
 }
 
 .external-links {
-  display: flex;
+  display: flex; 
   flex-flow: row wrap;
   justify-content: flex-start;
   margin: 0;
@@ -114,6 +121,7 @@ body {
 }
 
 .external-links a {
+  display: flex; 
   text-decoration: none;
   display: block;
   padding: 1em;
@@ -136,8 +144,9 @@ body {
     and (width : 375px) 
     and (height : 812px) { 
       .Calendar-title {
-color: red;   
-text-align: center;
+  color: red;   
+  text-align: center;
+  width: 65%; 
       }
       .get-Months {
         background-color: red;
@@ -147,7 +156,31 @@ text-align: center;
       button {
     display:grid;
     grid-column-end:inherit;
-
+    }
+    #info-description {
+    height: 100px;
+    width: 220px;
+    font-size: 1.5vh;
+  } 
+  #info-date {
+    height: 8px;
+    width: 220px;
+    font-size: 4vh;
+} 
+#info-name   {
+  height: 20px;
+    width: 220px;
+    font-size: 2vh;
 
     }
+
+#holiday {
+  display: flex;
+  justify-content: center;
+  font-family: 'Shadows Into Light', cursive;
+  color: #3414ea;
+  text-align: center;
+  font-size: 0.5vh;
+
   }
+}
