@@ -54,7 +54,5 @@ function removeDescription() {
     removeDescriptionDiv.removeChild(removeDescriptionDiv.lastChild)
   }
 }
-let linkUID = document.getElementById("Know more about me")
-let link = document.getElementById("Black-History-Month")
 
 
