@@ -123,4 +123,31 @@ body {
 .external-links:hover {
   background: #042346;
 }
+/* 
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
 
+
+/* This media query is for i phone X */
+@media only screen 
+    and (width : 375px) 
+    and (height : 812px) { 
+      .Calendar-title {
+color: red;   
+text-align: center;
+      }
+      .get-Months {
+        background-color: red;
+        height: 200px;
+        width: 200px;
+      }
+      button {
+    display:grid;
+    grid-column-end:inherit;
+
+
+    }
+  }
