@@ -139,10 +139,12 @@ body {
 } */
 
 
-/* This media query is for i phone X */
+/* This media query is for i phone X and X plus*/
 @media only screen 
-    and (width : 375px) 
-    and (height : 812px) { 
+    and (min-device-width: 375px) 
+    and (min-device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
       .Calendar-title {
   color: red;   
   text-align: center;
