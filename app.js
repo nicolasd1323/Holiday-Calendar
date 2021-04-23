@@ -18,7 +18,6 @@ apiOptions();
 
 function setOptions(list) {
   const selectTag = document.querySelector("#holiday");
-  console.log(list)
   list.forEach((holiday) => {
     const optionTag = document.createElement("option");
     optionTag.textContent = holiday.name;
@@ -26,28 +25,22 @@ function setOptions(list) {
     selectTag.append(optionTag);
   })
   change(selectTag, list)
-  
 }
+
 function change(selectTag, list) {
   selectTag.addEventListener('change', () => {
-    console.log(selectTag.value);
     let selectedHoliday = list.find((holiday) => {
       return holiday.name === selectTag.value;
     })
-    console.log(selectedHoliday.description)
-    console.log(selectedHoliday.date)
     const newDiv = document.createElement('div')
     newDiv.classList.add('holiday.info')
-
-
-
     const name = document.querySelector("#info-name").innerText = selectedHoliday.name
     const description = document.querySelector('#info-description').innerText = selectedHoliday.description
     const data = document.querySelector('#info-date').innerText = selectedHoliday.date.iso
-
     document.body.append(newDiv)
   })
 }
+
 function removeDescription() {
   const removeDescriptionDiv = document.querySelector(".holiday.info")
   while (removeDescriptionDiv.lastChild) {
