@@ -74,7 +74,7 @@ https://app.conceptboard.com/board/g8mu-dgai-3hc4-nubo-cxg4
 | CSS & Flex box | H | 4.5 hrs| 4hrs | 4hrs |
 | HTML work and structure| H | 4.5 hr| 3hrs | 3hrs |
 | clering search | H | 2hrs| 2hrs | 2hrs |
-| Inserting external links| l | 3 hr| 2hrs | 2hrs |
+| Inserting external links| L | 3 hr| 2hrs | 2hrs |
 | DOM work | H | 4.5hrs| 5hrs | 5hrs |
 | Addiing a hearder image| L | 1hr| 1hrs | 1hrs |
 | Final Adjustments | H | 3hrs| 3hrs | 3hrs |
