@@ -94,4 +94,4 @@ https://app.conceptboard.com/board/g8mu-dgai-3hc4-nubo-cxg4
 I am proud of this code Snippet, because whitout it my page would not as dynamic as it is right now.
 
 ## Change Log
- 
+ The idea of the project was to have a drop down holiday options by month, but the way the API was set up, I had to adapt to it and change it to a drop down by holiday name in order to access the data.
