@@ -42,8 +42,6 @@ https://wireframe.cc/vU662h
 
 #### PostMVP  
 
-- **Add a second API to have fun facts and or images of a few calendar holidays.
-- **Add a second/third API to mention major sports events during the year.
 - **Provide links for users to know abot the history of major holidays in the Unites States
 
 
@@ -52,12 +50,12 @@ https://wireframe.cc/vU662h
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|April 16-18| Prompt / Wireframes / Timeframes | Incomplete
-|April 19| Project Approval/ Connecting the API with the page/ work with the html structure  | Incomplete
-|April 20| Structure of the page  (HTML) and start coding in JavaScript | Incomplete
-|April 20| coding JavaScript and CSS flex box model | Incomplete
-|April 21| Initial Clickable Model using JavaScript | Incomplete
-|April 22| MVP- Post MVP | Incomplete
+|April 16-18| Prompt / Wireframes / Timeframes | Complete
+|April 19| Project Approval/ Connecting the API with the page/ work with the html structure  |Complete
+|April 20| Structure of the page  (HTML) and start coding in JavaScript | Complete
+|April 20| coding JavaScript and CSS flex box model | complete
+|April 21| Initial Clickable Model using JavaScript | complete
+|April 22| MVP- Post MVP | complete
 |April 23| Presentation | Incomplete
 
 ## Priority Matrix
@@ -70,25 +68,30 @@ https://app.conceptboard.com/board/g8mu-dgai-3hc4-nubo-cxg4
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Working with API | H | 3hrs| hrs | hrs |
-| Describing each holiday | H | 3.5hrs| hrs | hrs |
-| funtionality of the page | H | 4 hr| hrs | hrs |
-| CSS & Flex box | H | 4.5 hrs| hrs | hrs |
-| HTML work and structure| H | 4.5 hr| hrs | hrs |
-| clering search | H | 2hrs| hrs | hrs |
-| Animation | m | 4 hr| hrs | hrs |
-| DOM work | H | 4.5hrs| hrs | hrs |
-| Addiing a hearder image| L | 2hr| hrs | hrs |
-| Adding images to each holiday| M | 3 hr| hrs | hrs |
-| Final Adjustments | H | 3hrs| hrs | hrs |
+| Working with API | H | 3hrs| 5hrs | 5hrs |
+| Describing each holiday | H | 3.5hrs| 4hrs | 4hrs |
+| funtionality of the page | H | 4 hr| 5hrs | 5hrs |
+| CSS & Flex box | H | 4.5 hrs| 4hrs | 4hrs |
+| HTML work and structure| H | 4.5 hr| 3hrs | 3hrs |
+| clering search | H | 2hrs| 2hrs | 2hrs |
+| Inserting external links| l | 3 hr| 2hrs | 2hrs |
+| DOM work | H | 4.5hrs| 5hrs | 5hrs |
+| Addiing a hearder image| L | 1hr| 1hrs | 1hrs |
+| Final Adjustments | H | 3hrs| 3hrs | 3hrs |
 
 
-| Total | H | 38hrs| hrs | hrs |
+| Total | H | 33hrs| 34hrs | 34hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
-
+```function removeDescription() {
+  const removeDescriptionDiv = document.querySelector(".holiday.info")
+  while (removeDescriptionDiv.lastChild) {
+    removeDescriptionDiv.removeChild(removeDescriptionDiv.lastChild)
+  }
+}
+```
+I am proud of this code Snippet, because whitout it my page would not as dynamic as it is right now.
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+ 
